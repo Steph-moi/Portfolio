@@ -42,8 +42,13 @@ h1 {
 nav {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 20px;
+	background: #232526;
+	padding: 1em;
 	margin: 30px 0 20px 0;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px #0003;
 }
 
 .nav-btn {
@@ -57,6 +62,7 @@ nav {
 	box-shadow: 0 2px 8px #0003;
 	transition: background 0.2s, transform 0.2s;
 	cursor: pointer;
+	margin-right: 0;
 }
 .nav-btn:hover {
 	background: #ffd700;
@@ -151,4 +157,54 @@ p {
 	font-size: 1.2em;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.contact-container {
+	background: #333a;
+	padding: 2em;
+	border-radius: 18px;
+	max-width: 500px;
+	margin: 40px auto 80px auto;
+	box-shadow: 0 2px 16px #0006;
+}
+.contact-container h1 {
+	color: #ffd700;
+	text-align: center;
+	margin-bottom: 1em;
+	letter-spacing: 1px;
+}
+.contact-container label {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	color: #ffd700;
+}
+.contact-container input,
+.contact-container textarea {
+	width: 100%;
+	padding: 0.7em;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 1em;
+	background: #232526;
+	color: #ffd700;
+	font-size: 1em;
+	box-shadow: 0 1px 4px #0002;
+}
+.contact-container input[type="submit"] {
+	background: #ffd700;
+	color: #232526;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	padding: 0.7em 2em;
+	border-radius: 25px;
+	transition: background 0.2s, color 0.2s, transform 0.2s;
+	box-shadow: 0 2px 8px #0003;
+}
+.contact-container input[type="submit"]:hover {
+	background: #232526;
+	color: #ffd700;
+	transform: translateY(-2px) scale(1.05);
 }
