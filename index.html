@@ -3,28 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <title> Mon premier site</title>
+    <link rel="stylesheet" href="CSS/styleindex.css">
     </head>
     <body>
-        <style>
-        body {
-            background-color:#242222;
-            color: cornsilk;
-             }
-        </style>
+        <!-- Styles déplacés dans CSS/style.css -->
         <h1>Bienvenue sur mon site</h1>
-        <p>Ceci est mon premier paragraphe en html</p>
-    <a href="https://github.com/Steph-moi">Visitez mon GitHub</a>
+        <p>Ceci est mon Portfolio</p>
+    <a href="https://github.com/Steph-moi" class="github-link" target="_blank">🐙 Visitez mon GitHub</a>
     <hr>
-    <h2>Mes compétences:</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-    </ul>
-    <a href="chemin/vers/fichier.pdf" download>
-    <button>Télécharger le CV</button>
+            <nav>
+                <a href="index.html"><button class="nav-btn">🏠 Accueil</button></a>
+                <a href="Stages.html"><button class="nav-btn">📁 Stages</button></a>
+                <a href="Projets.html"><button class="nav-btn">🧩 Projets</button></a>
+            </nav>
+            <h2>Mes compétences:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+            </ul>
+    <img src="IMG/CVStephanebaldino.png" width=25% height=25% alt="MON CV" class="cv-image">
+    <a href="CVStephaneBALDINO.pdf" download>
+        <button class="download-btn">Télécharger le CV</button>
     </a>
-    <img src="IMG/CVStephanebaldino.png" width=10% height=10% alt="MON CV">
     <footer>
         <p>©2025 - Mon portfolio
     </footer>
